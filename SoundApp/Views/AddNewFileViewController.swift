@@ -67,7 +67,7 @@ extension AddNewFileViewController: UIDocumentPickerDelegate {
         if selectedFileURL.pathExtension.lowercased() == "mp3" {
             fileNameLabel.text = "Selected File: \(selectedFileURL.lastPathComponent)"
         } else {
-            fileNameLabel.text = "Invalid file type. Please select an MP3 file."
+            fileNameLabel.text = "Invalid file type. Please select an MP4 file."
         }
     }
     func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
